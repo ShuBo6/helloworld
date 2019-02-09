@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/xiaoyuanshouye"
+        android:icon="@mipmap/school_bottom"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/baoxiudongtai"
+        android:icon="@mipmap/notify_bottom"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/gerenzhongxin"
+        android:icon="@mipmap/user_info_bottom"
+        android:title="@string/title_notifications" />
+
+</menu>

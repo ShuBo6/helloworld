@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeToLoadLayout"><attr format="boolean" name="refresh_enabled"/><attr format="boolean" name="load_more_enabled"/><attr format="enum" name="swipe_style">
+            <enum name="classic" value="0"/>
+            <enum name="above" value="1"/>
+            <enum name="blew" value="2"/>
+            <enum name="scale" value="3"/>
+        </attr><attr format="float" name="drag_ratio"/><attr format="dimension" name="refresh_trigger_offset"/><attr format="dimension" name="load_more_trigger_offset"/><attr format="dimension" name="refresh_final_drag_offset"/><attr format="dimension" name="load_more_final_drag_offset"/><attr format="integer" name="swiping_to_refresh_to_default_scrolling_duration"/><attr format="integer" name="release_to_refreshing_scrolling_duration"/><attr format="integer" name="refresh_complete_delay_duration"/><attr format="integer" name="refresh_complete_to_default_scrolling_duration"/><attr format="integer" name="default_to_refreshing_scrolling_duration"/><attr format="integer" name="swiping_to_load_more_to_default_scrolling_duration"/><attr format="integer" name="release_to_loading_more_scrolling_duration"/><attr format="integer" name="load_more_complete_delay_duration"/><attr format="integer" name="load_more_complete_to_default_scrolling_duration"/><attr format="integer" name="default_to_loading_more_scrolling_duration"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <item name="swipe_load_more_footer" type="id"/>
+    <item name="swipe_refresh_header" type="id"/>
+    <item name="swipe_target" type="id"/>
+    <string name="app_name">SwipeToLoadLayout</string>
+</resources>

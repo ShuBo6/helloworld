@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">掌上校园</string>
+    <string name="str_merchandise_time">报修时间:%s</string>
+    <string name="user_name">%s</string>
+    <string name="str_merchandise_price">共<b>%1$s</b>件商品 合计:<b>¥%2$s</b></string>
+    <string name="title_activity_user_menu">UserMenu</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">报修</string>
+    <string name="title_notifications">个人中心</string>
+
+
+    <string name="encode_qrcode">生成二维码</string>
+    <string name="dencode_qrcode">扫描二维码</string>
+    <string name="code_text">请输入生成二维码的文本信息</string>
+    <string name="qrcodetext">这里显示扫描结果</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">功能尚未开放尽情期待！！！</string>
+    <string name="title_activity_drawer_menu">DrawerMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_socket_client">SocketClient</string>
+    <string name="title_activity_teacher_faqiqiandao">TeacherFaqiqiandao</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

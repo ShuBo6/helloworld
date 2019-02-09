@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:1-4:12
+	package
+		ADDED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+		ADDED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:1-4:12
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+		ADDED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:1-4:12
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+		ADDED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+		ADDED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml
+		INJECTED from O:\AndroidStudioProjects\MyApp1\swipeToLoadLayout\src\main\AndroidManifest.xml

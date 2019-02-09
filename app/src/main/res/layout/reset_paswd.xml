@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrain_reset_paswd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/head_all_order"
+        android:id="@+id/resetpswd_headbar"/>
+    <EditText
+        android:id="@+id/reset_username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="输入你的用户名"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/reset_paswd"
+        app:layout_constraintEnd_toEndOf="@+id/reset_paswd"
+        app:layout_constraintStart_toStartOf="@+id/reset_paswd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979" />
+
+    <EditText
+        android:id="@+id/reset_paswd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="请输入你的密码"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/reset_new_paswd"
+        app:layout_constraintEnd_toEndOf="@+id/reset_new_paswd"
+        app:layout_constraintStart_toStartOf="@+id/reset_new_paswd" />
+
+    <EditText
+        android:id="@+id/reset_new_paswd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="请输入新密码"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/reset_new_repaswd"
+        app:layout_constraintEnd_toEndOf="@+id/reset_new_repaswd"
+        app:layout_constraintStart_toStartOf="@+id/reset_new_repaswd" />
+
+    <EditText
+        android:id="@+id/reset_new_repaswd"
+        android:layout_width="300dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="108dp"
+        android:ems="10"
+        android:hint="请再次输入新密码"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/tijiao"
+        app:layout_constraintEnd_toEndOf="@+id/tijiao"
+        app:layout_constraintStart_toStartOf="@+id/tijiao" />
+
+    <Button
+        android:id="@+id/tijiao"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="提交"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

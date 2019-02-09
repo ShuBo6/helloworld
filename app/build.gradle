@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.example.a81418.myapp1"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "2.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.zxing:core:3.3.0'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.1'
+    implementation 'com.android.support:support-vector-drawable:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation files('libs/mysql-connector-java-5.1.7-bin.jar')
+    implementation 'com.android.support:design:26.1.0'
+    compile project(':lib')
+    implementation files('libs/butterknife-7.0.1.jar')
+    implementation project(':swipeToLoadLayout')
+    implementation files('libs/fastjson-1.2.8.jar')
+    implementation files('libs/logger-1.13.jar')
+    implementation files('libs/picasso-2.5.2.jar')
+    implementation project(':banner')
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.android.support:gridlayout-v7:26.1.0'
+}
